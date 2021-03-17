@@ -12,7 +12,7 @@
 <h1>WebPack</h1>
 
 
-
+**Text content from screens 's course on frontendmasters.com**
 Really when you think about where we came from to why we're trying to do these things are all about performance and being able to scale it, being able to maintain it.
 Anf having this module system, especially ESM, has really transformed the opportunities that are possible with bundlers.
 And there is no other syntax that is as unique as the ES Module spec, so much so that it is now being adopted by other programming languages.
@@ -48,3 +48,82 @@ So what I tend to do is usually just use the ESM syntax at the top level.
 Webpack supports using require, but what we'll do is we actually have interrupt to support using both and have it work accurately with the correct cyclical dependencies and light binding.
 So since qe know this is a default export, we can actualy call this like,
 ...
+
+### Plugins Used Definition:
+
+**Quick definition about webapck plugins and loaders**
+
+**Webpack**
+webpack
+webpack-cli
+webpack-dev-server
+clean-webpack-plugin
+html-webpack-plugin
+
+**Babel**
+@babel.core
+@bable/preset-env
+babel-loader
+
+**PostCSS**
+postcss-hexrgba
+postcss-import
+postcss-loader
+postcss-mixins
+postcss-nested
+postcss-simple-vars
+
+
+**CSS & Style**
+normalize.css
+lazysizes
+
+css-loader
+style-loader
+
+cssnano
+mini-css-extract-plugin
+fs-extra
+
+
+**Autoprefixer**
+autoprefixer
+
+**Lodash**
+lodash
+
+**Quick Final on plugins and loaders**
+
+
+### Plugins list:
+**Dependencies:**
+lodash
+normalize.css
+lazysizes
+
+**Dev-dependencies**:
+webpack
+webpack-cli
+webpack-dev-server
+clean-webpack-plugin
+html-webpack-plugin
+
+@babel.core
+@bable/preset-env
+babel-loader
+
+postcss-hexrgba
+postcss-import
+postcss-loader
+postcss-mixins
+postcss-nested
+postcss-simple-vars
+
+css-loader
+style-loader
+
+autoprefixer
+
+cssnano
+mini-css-extract-plugin
+fs-extra
